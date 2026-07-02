@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title data-i18n-title="meta.title.contact">اتصل بنا | شركة مسار السهام</title>
+<link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="placeholder-banner" data-i18n="placeholder.banner"></div>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="index.html" class="brand">
+      <img src="assets/logo.svg" alt="Masar Al-Saham logo">
+      <span class="brand-text">
+        <span data-i18n="brand.name">مسار السهام</span>
+        <small data-i18n="brand.tagline">شركة مقاولات عامة</small>
+      </span>
+    </a>
+    <nav class="main-nav" id="main-nav">
+      <ul>
+        <li><a href="index.html" data-i18n="nav.home">الرئيسية</a></li>
+        <li><a href="about.html" data-i18n="nav.about">من نحن</a></li>
+        <li><a href="services.html" data-i18n="nav.services">خدماتنا</a></li>
+        <li><a href="projects.html" data-i18n="nav.projects">مشاريعنا</a></li>
+        <li><a href="contact.html" class="active" data-i18n="nav.contact">اتصل بنا</a></li>
+      </ul>
+    </nav>
+    <div class="header-actions">
+      <button class="lang-toggle" id="lang-toggle-btn">English</button>
+      <button class="nav-toggle" id="nav-toggle-btn" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="breadcrumb" data-i18n="contact.hero.crumb">اتصل بنا</div>
+  <h1 data-i18n="contact.hero.title">لنتحدث عن مشروعك</h1>
+  <p data-i18n="contact.hero.desc">تواصل معنا للحصول على استشارة مجانية — نعمل في كل مدينة عراقية.</p>
+</section>
+
+<section>
+  <div class="container contact-grid">
+    <div class="contact-info-card">
+      <h3 data-i18n="contact.info.title">تواصل معنا</h3>
+      <p class="lead" data-i18n="contact.info.lead">تواصل معنا وسيقوم فريقنا بالرد في أقرب وقت ممكن.</p>
+
+      <div class="contact-line">
+        <div class="icon">📞</div>
+        <div>
+          <strong data-i18n="contact.phone.label">الهاتف</strong>
+          <span data-i18n="contact.phone.value">+964 7XX XXX XXXX</span>
+        </div>
+      </div>
+      <div class="contact-line">
+        <div class="icon">✉️</div>
+        <div>
+          <strong data-i18n="contact.email.label">البريد الإلكتروني</strong>
+          <span data-i18n="contact.email.value">info@masaralsaham.com</span>
+        </div>
+      </div>
+      <div class="contact-line">
+        <div class="icon">📍</div>
+        <div>
+          <strong data-i18n="contact.address.label">المكتب الرئيسي</strong>
+          <span data-i18n="contact.address.value">بغداد، العراق — نخدم جميع المحافظات</span>
+        </div>
+      </div>
+      <div class="contact-line">
+        <div class="icon">🕐</div>
+        <div>
+          <strong data-i18n="contact.hours.label">ساعات العمل</strong>
+          <span data-i18n="contact.hours.value">السبت–الخميس: 8:00 صباحًا – 5:00 مساءً</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-card">
+      <h3 style="margin:0 0 6px; color:var(--navy-dark);" data-i18n="contact.form.title">أرسل لنا رسالة</h3>
+      <div class="form-success" id="form-success" data-i18n="contact.form.success">شكرًا لك! تم تسجيل رسالتك.</div>
+      <form id="contact-form">
+        <div class="form-row">
+          <div class="field">
+            <label data-i18n="contact.form.name">الاسم الكامل</label>
+            <input type="text" required data-i18n-placeholder="contact.form.name">
+          </div>
+          <div class="field">
+            <label data-i18n="contact.form.phone">رقم الهاتف</label>
+            <input type="tel" required data-i18n-placeholder="contact.form.phone">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="field">
+            <label data-i18n="contact.form.email">البريد الإلكتروني</label>
+            <input type="email" required data-i18n-placeholder="contact.form.email">
+          </div>
+          <div class="field">
+            <label data-i18n="contact.form.city">المدينة</label>
+            <input type="text" data-i18n-placeholder="contact.form.city">
+          </div>
+        </div>
+        <div class="field">
+          <label data-i18n="contact.form.message">تفاصيل المشروع</label>
+          <textarea required data-i18n-placeholder="contact.form.message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" data-i18n="contact.form.submit">إرسال الرسالة</button>
+        <p class="form-note" data-i18n="contact.form.note">هذا النموذج لا يرسل تلقائيًا حاليًا.</p>
+      </form>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="map-note" data-i18n="contact.map.text">نموذج خريطة — أضف هنا خريطة جوجل الخاصة بموقع مكتبك.</div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">
+          <img src="assets/logo.svg" alt="Masar Al-Saham logo">
+          <span data-i18n="brand.name">مسار السهام</span>
+        </div>
+        <p data-i18n="footer.about.text">تقدم شركة مسار السهام خدمات المقاولات العامة والإنشاءات في جميع مدن العراق.</p>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer.quicklinks.title">روابط سريعة</h4>
+        <ul>
+          <li><a href="about.html" data-i18n="nav.about">من نحن</a></li>
+          <li><a href="services.html" data-i18n="nav.services">خدماتنا</a></li>
+          <li><a href="projects.html" data-i18n="nav.projects">مشاريعنا</a></li>
+          <li><a href="contact.html" data-i18n="nav.contact">اتصل بنا</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer.contact.title">تواصل</h4>
+        <ul>
+          <li data-i18n="contact.phone.value">+964 7XX XXX XXXX</li>
+          <li data-i18n="contact.email.value">info@masaralsaham.com</li>
+          <li data-i18n="contact.address.value">بغداد، العراق</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="footer-year">2026</span> <span data-i18n="brand.name">مسار السهام</span> — <span data-i18n="footer.rights">جميع الحقوق محفوظة.</span></span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/i18n.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
