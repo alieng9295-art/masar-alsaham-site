@@ -3,8 +3,9 @@
 A free, bilingual (Arabic/English) website for **Masar Al-Saham Company** (شركة مسار السهم للمقاولات العامة والاستشارات الهندسية), a Grade-1 classified general contracting and engineering consultancy company based in Baghdad, Iraq.
 
 - **Live site:** https://alieng9295-art.github.io/masar-alsaham-site/
+- **Short link:** https://tinyurl.com/26ok2jbp
 - **GitHub repo:** https://github.com/alieng9295-art/masar-alsaham-site
-- **Hosting:** Free, via GitHub Pages (branch: `main`, root folder)
+- **Hosting:** Free forever via GitHub Pages (branch: `main`, root folder) — no expiration date, no credit card, works as long as the GitHub account stays active.
 
 ## What's here
 - `index.html`, `about.html`, `services.html`, `projects.html`, `contact.html` — the 5 pages
@@ -20,6 +21,12 @@ Phone: 07745000864 / 07764181492 · Email: masar.al_saham@yahoo.com · Address: 
 
 ## Contact form
 The form on `contact.html` sends real emails to masar.al_saham@yahoo.com via FormSubmit.co (a free service, no account needed). The first time someone submits the form, FormSubmit sends a one-time confirmation email to masar.al_saham@yahoo.com — that confirmation link must be clicked once to activate delivery; after that, every submission arrives by email automatically.
+
+## Search engine visibility (SEO)
+`robots.txt` and `sitemap.xml` were added to help Google discover and index the site faster. New websites still typically take anywhere from a couple of weeks to a few months to start appearing in search results — this is normal and not something any technical fix can bypass immediately.
+
+## About page photo carousel
+The image on `about.html` automatically rotates through 6 real project photos every 4 seconds (controlled by `initAboutCarousel()` in `js/main.js`, styled in `css/style.css` under `.about-carousel`).
 
 ## How to make future edits
 The easiest way: come back to this conversation (or start a new one and share this repo link — `https://github.com/alieng9295-art/masar-alsaham-site`) and describe what you want changed. Claude can read the live repo, edit the files, and re-publish directly.
