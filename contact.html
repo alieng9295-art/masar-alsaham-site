@@ -84,33 +84,36 @@
     <div class="form-card">
       <h3 style="margin:0 0 6px; color:var(--navy-dark);" data-i18n="contact.form.title">أرسل لنا رسالة</h3>
       <div class="form-success" id="form-success" data-i18n="contact.form.success">شكرًا لك! تم تسجيل رسالتك.</div>
-      <form id="contact-form">
+      <form id="contact-form" action="https://formsubmit.co/ajax/masar.al_saham@yahoo.com" method="POST">
+        <input type="hidden" name="_subject" value="رسالة جديدة من موقع مسار السهم">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_captcha" value="false">
         <div class="form-row">
           <div class="field">
             <label data-i18n="contact.form.name">الاسم الكامل</label>
-            <input type="text" required data-i18n-placeholder="contact.form.name">
+            <input type="text" name="الاسم" required data-i18n-placeholder="contact.form.name">
           </div>
           <div class="field">
             <label data-i18n="contact.form.phone">رقم الهاتف</label>
-            <input type="tel" required data-i18n-placeholder="contact.form.phone">
+            <input type="tel" name="رقم_الهاتف" required data-i18n-placeholder="contact.form.phone">
           </div>
         </div>
         <div class="form-row">
           <div class="field">
             <label data-i18n="contact.form.email">البريد الإلكتروني</label>
-            <input type="email" required data-i18n-placeholder="contact.form.email">
+            <input type="email" name="البريد_الإلكتروني" required data-i18n-placeholder="contact.form.email">
           </div>
           <div class="field">
             <label data-i18n="contact.form.city">المدينة</label>
-            <input type="text" data-i18n-placeholder="contact.form.city">
+            <input type="text" name="المدينة" data-i18n-placeholder="contact.form.city">
           </div>
         </div>
         <div class="field">
           <label data-i18n="contact.form.message">تفاصيل المشروع</label>
-          <textarea required data-i18n-placeholder="contact.form.message"></textarea>
+          <textarea name="تفاصيل_المشروع" required data-i18n-placeholder="contact.form.message"></textarea>
         </div>
         <button type="submit" class="btn btn-primary" data-i18n="contact.form.submit">إرسال الرسالة</button>
-        <p class="form-note" data-i18n="contact.form.note">هذا النموذج لا يرسل تلقائيًا حاليًا.</p>
+        <p class="form-note" id="form-note" style="display:none;"></p>
       </form>
     </div>
   </div>
@@ -155,4 +158,6 @@
 </footer>
 
 <script src="js/i18n.js"></script>
-<script src="j
+<script src="js/main.js"></script>
+</body>
+</html>

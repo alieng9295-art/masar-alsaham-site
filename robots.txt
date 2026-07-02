@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://alieng9295-art.github.io/masar-alsaham-site/sitemap.xml
