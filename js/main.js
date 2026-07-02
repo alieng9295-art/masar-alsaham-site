@@ -59,15 +59,52 @@
     if (el) el.textContent = new Date().getFullYear();
   }
 
+  function initAboutCarousel() {
+    var wrap = document.querySelector(".about-carousel");
+    if (!wrap) return;
+    var slides = wrap.querySelectorAll(".about-carousel-img");
+    if (slides.length < 2) return;
+    var i = 0;
+    setInterval(function () {
+      slides[i].classList.remove("is-active");
+      i = (i + 1) % slides.length;
+      slides[i].classList.add("is-active");
+    }, 4000);
+  }
+
   function initContactForm() {
     var form = document.getElementById("contact-form");
     if (!form) return;
+    var success = document.getElementById("form-success");
+    var note = document.getElementById("form-note");
     form.addEventListener("submit", function (e) {
       e.preventDefault();
-      var success = document.getElementById("form-success");
-      if (success) success.classList.add("show");
-      form.reset();
-      if (success) success.scrollIntoView({ behavior: "smooth", block: "center" });
+      var btn = form.querySelector("button[type=submit]");
+      if (btn) btn.disabled = true;
+      if (note) note.style.display = "none";
+
+      fetch(form.action, {
+        method: "POST",
+        headers: { "Accept": "application/json" },
+        body: new FormData(form)
+      })
+        .then(function (res) {
+          if (!res.ok) throw new Error("Request failed");
+          if (success) success.classList.add("show");
+          form.reset();
+          if (success) success.scrollIntoView({ behavior: "smooth", block: "center" });
+        })
+        .catch(function () {
+          if (note) {
+            note.style.display = "block";
+            note.textContent = (getLang() === "ar")
+              ? "تعذر إرسال الرسالة. يرجى المحاولة مجددًا أو التواصل عبر الهاتف/البريد الإلكتروني."
+              : "Couldn't send the message. Please try again or contact us by phone/email.";
+          }
+        })
+        .then(function () {
+          if (btn) btn.disabled = false;
+        });
     });
   }
 
@@ -77,5 +114,6 @@
     initMobileNav();
     initFooterYear();
     initContactForm();
+    initAboutCarousel();
   });
 })();
