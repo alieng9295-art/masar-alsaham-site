@@ -69,7 +69,24 @@
       slides[i].classList.remove("is-active");
       i = (i + 1) % slides.length;
       slides[i].classList.add("is-active");
-    }, 4000);
+    }, 2000);
+  }
+
+  function initExpandableCards() {
+    document.querySelectorAll(".expandable").forEach(function (el) {
+      el.setAttribute("tabindex", "0");
+      el.setAttribute("role", "button");
+      function toggle() {
+        el.classList.toggle("open");
+      }
+      el.addEventListener("click", toggle);
+      el.addEventListener("keydown", function (e) {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          toggle();
+        }
+      });
+    });
   }
 
   function initContactForm() {
@@ -115,5 +132,6 @@
     initFooterYear();
     initContactForm();
     initAboutCarousel();
+    initExpandableCards();
   });
 })();
