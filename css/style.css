@@ -596,6 +596,35 @@ section { padding: 96px 0; }
   background: var(--grey-bg);
 }
 
+/* ===== Capability illustration panel ===== */
+.capability-panel {
+  position: relative;
+  background: linear-gradient(135deg, var(--navy-dark), var(--navy) 55%, var(--navy-light));
+  border-radius: var(--radius-lg);
+  padding: 44px 32px 30px;
+  overflow: hidden;
+  box-shadow: var(--shadow-strong);
+}
+.capability-panel::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    repeating-linear-gradient(0deg, rgba(255,255,255,0.05) 0 1px, transparent 1px 48px),
+    repeating-linear-gradient(90deg, rgba(255,255,255,0.05) 0 1px, transparent 1px 48px);
+  mask-image: radial-gradient(ellipse at center, rgba(0,0,0,0.9), transparent 85%);
+}
+.capability-panel svg {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+@media (max-width: 720px) {
+  .capability-panel { padding: 30px 16px 20px; }
+}
+
 /* ===== CTA banner ===== */
 .cta-banner {
   position: relative;
