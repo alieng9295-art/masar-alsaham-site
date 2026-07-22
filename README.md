@@ -17,7 +17,7 @@ A free, bilingual (Arabic/English) website for **Masar Al-Saham Company** (شر�
 - `robots.txt`, `sitemap.xml` — help search engines find and index the site
 
 ## Real content already in place
-Phone: 07745000864 / 07764181492 · Email: masar.al_saham@yahoo.com · Address: Baghdad – Al-Khadra District · Hours: Sat–Thu 8am–5pm · Classification: Grade 1 (تصنيف اول انشائي) · 25+ years experience · 78+ staff.
+Phone: 07731559558 · Email: masar.al_saham@yahoo.com · Address: Baghdad – Al-Khadra District · Hours: Sat–Thu 8am–5pm · Classification: Grade 1 (تصنيف اول انشائي) · 25+ years experience · 78+ staff.
 
 ## Contact form
 The form on `contact.html` sends real emails to masar.al_saham@yahoo.com via FormSubmit.co (a free service, no account needed). The first time someone submits the form, FormSubmit sends a one-time confirmation email to masar.al_saham@yahoo.com — that confirmation link must be clicked once to activate delivery; after that, every submission arrives by email automatically.
