@@ -12,7 +12,7 @@ window.MASAR_I18N = {
     "brand.name": "Masar Al-Saham", "brand.tagline": "General Contracting & Engineering Consultancy",
     "lang.toggle": "العربية",
 
-    "contact.phone.value": "07745000864 / 07764181492",
+    "contact.phone.value": "07731559558",
     "contact.email.value": "masar.al_saham@yahoo.com",
     "contact.address.value": "Baghdad, Iraq — Al-Khadra District",
     "contact.hours.value": "Sat–Thu: 8:00 AM – 5:00 PM",
@@ -165,7 +165,7 @@ window.MASAR_I18N = {
     "brand.name": "مسار السهم", "brand.tagline": "مقاولات عامة واستشارات هندسية",
     "lang.toggle": "English",
 
-    "contact.phone.value": "07745000864 / 07764181492",
+    "contact.phone.value": "07731559558",
     "contact.email.value": "masar.al_saham@yahoo.com",
     "contact.address.value": "بغداد – حي الخضراء",
     "contact.hours.value": "السبت–الخميس: 8:00 صباحًا – 5:00 مساءً",
