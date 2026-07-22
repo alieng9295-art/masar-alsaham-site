@@ -43,10 +43,6 @@ window.MASAR_I18N = {
     "home.services.title": "Our Core Services",
     "home.services.link": "View All Services",
 
-    "home.capabilities.eyebrow": "Range of Expertise",
-    "home.capabilities.title": "From Engineering Blueprint to Live Job Site",
-    "home.capabilities.desc": "Our teams and heavy equipment move across many project types — residential towers, industrial facilities, roads and infrastructure, and full-scale renovations.",
-
     "home.cta.title": "Have a Project in Mind?",
     "home.cta.desc": "Tell us about your project and our team will get back to you with a free consultation.",
     "home.cta.btn": "Contact Us Today",
@@ -203,10 +199,6 @@ window.MASAR_I18N = {
     "home.services.eyebrow": "ماذا نقدم",
     "home.services.title": "خدماتنا الأساسية",
     "home.services.link": "عرض جميع الخدمات",
-
-    "home.capabilities.eyebrow": "تنوع في التخصصات",
-    "home.capabilities.title": "من المخطط الهندسي إلى موقع التنفيذ",
-    "home.capabilities.desc": "تتحرك كوادرنا الهندسية ومعداتنا الثقيلة عبر أنواع متعددة من المشاريع؛ من الأبراج السكنية والمنشآت الصناعية إلى الطرق والبنى التحتية وأعمال الترميم الشاملة.",
 
     "home.cta.title": "هل لديك مشروع تخطط له؟",
     "home.cta.desc": "أخبرنا عن مشروعك وسيتواصل معك فريقنا لتقديم استشارة مجانية.",
