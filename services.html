@@ -11,7 +11,7 @@
 </head>
 <body>
 
-
+<div class="topbar"></div>
 <header class="site-header">
   <div class="header-inner">
     <a href="index.html" class="brand">
@@ -39,7 +39,7 @@
   </div>
 </header>
 
-<section class="page-hero">
+<section class="page-hero" style="--hero-img:url('assets/proj4-gastanks.jpg');">
   <div class="breadcrumb" data-i18n="services.hero.crumb">خدماتنا</div>
   <h1 data-i18n="services.hero.title">خدمات إنشائية في جميع أنحاء العراق</h1>
   <p data-i18n="services.hero.desc">حلول مقاولات عامة للمشاريع السكنية والتجارية والبنى التحتية في كل محافظة.</p>
@@ -47,8 +47,8 @@
 
 <section>
   <div class="container">
-    <div class="service-row expandable">
-      <div class="icon">🏗️</div>
+    <div class="service-row expandable reveal">
+      <div class="icon icon-badge" data-icon="building"></div>
       <div>
         <h3 data-i18n="svc.general.title">إنشاء المباني العامة</h3>
         <p data-i18n="svc.general.desc">خدمات إنشاء متكاملة للمباني السكنية والتجارية، من الأساسات وحتى التشطيب.</p>
@@ -56,8 +56,8 @@
         <span class="expand-hint" data-i18n="ui.moreDetails">التفاصيل</span>
       </div>
     </div>
-    <div class="service-row expandable">
-      <div class="icon">🛣️</div>
+    <div class="service-row expandable reveal">
+      <div class="icon icon-badge" data-icon="road"></div>
       <div>
         <h3 data-i18n="svc.infra.title">البنى التحتية وأعمال الطرق</h3>
         <p data-i18n="svc.infra.desc">طرق وأعمال مواقع ومشاريع بنية تحتية عامة مبنية لتدوم.</p>
@@ -65,8 +65,8 @@
         <span class="expand-hint" data-i18n="ui.moreDetails">التفاصيل</span>
       </div>
     </div>
-    <div class="service-row expandable">
-      <div class="icon">🔧</div>
+    <div class="service-row expandable reveal">
+      <div class="icon icon-badge" data-icon="wrench"></div>
       <div>
         <h3 data-i18n="svc.renovation.title">الترميم والصيانة</h3>
         <p data-i18n="svc.renovation.desc">تطوير وترميم المباني والمنشآت القائمة لترتقي إلى المعايير الحديثة.</p>
@@ -74,8 +74,8 @@
         <span class="expand-hint" data-i18n="ui.moreDetails">التفاصيل</span>
       </div>
     </div>
-    <div class="service-row expandable">
-      <div class="icon">📋</div>
+    <div class="service-row expandable reveal">
+      <div class="icon icon-badge" data-icon="clipboard"></div>
       <div>
         <h3 data-i18n="svc.pm.title">إدارة المشاريع والاستشارات الهندسية</h3>
         <p data-i18n="svc.pm.desc">استشارات هندسية وإدارة متكاملة للمشاريع الإنشائية المعقدة.</p>
@@ -83,8 +83,8 @@
         <span class="expand-hint" data-i18n="ui.moreDetails">التفاصيل</span>
       </div>
     </div>
-    <div class="service-row expandable">
-      <div class="icon">🏠</div>
+    <div class="service-row expandable reveal">
+      <div class="icon icon-badge" data-icon="home"></div>
       <div>
         <h3 data-i18n="svc.residential.title">الإنشاءات السكنية</h3>
         <p data-i18n="svc.residential.desc">منازل ومجمعات سكنية تُبنى بعناية بالتفاصيل والمتانة.</p>
@@ -92,8 +92,8 @@
         <span class="expand-hint" data-i18n="ui.moreDetails">التفاصيل</span>
       </div>
     </div>
-    <div class="service-row expandable">
-      <div class="icon">🏢</div>
+    <div class="service-row expandable reveal">
+      <div class="icon icon-badge" data-icon="office"></div>
       <div>
         <h3 data-i18n="svc.commercial.title">المشاريع التجارية والصناعية</h3>
         <p data-i18n="svc.commercial.desc">منشآت تجارية ومكتبية وصناعية تُسلَّم ضمن الجدول الزمني والمواصفات المطلوبة.</p>
@@ -106,34 +106,34 @@
 
 <section class="section-alt">
   <div class="container">
-    <div class="section-head">
+    <div class="section-head reveal">
       <span class="section-eyebrow" data-i18n="services.process.eyebrow">كيف نعمل</span>
       <h2 data-i18n="services.process.title">منهجية عملنا</h2>
     </div>
     <div class="grid grid-4">
-      <div class="card expandable">
-        <div class="icon">1️⃣</div>
+      <div class="card expandable reveal">
+        <div style="font-size:1.7rem; font-weight:800; color:var(--orange); margin-bottom:14px; font-family:Cairo;">01</div>
         <h3 data-i18n="step1.title">الاستشارة</h3>
         <p data-i18n="step1.desc">نناقش أهدافك وموقع المشروع والميزانية.</p>
         <p class="card-more" data-i18n="step1.more">نلتقي بك للاستماع إلى أهدافك ومتطلبات الموقع والميزانية المتاحة، ونقدم استشارة أولية مجانية لتحديد أفضل مسار للمشروع.</p>
         <span class="expand-hint" data-i18n="ui.moreDetails">التفاصيل</span>
       </div>
-      <div class="card expandable">
-        <div class="icon">2️⃣</div>
+      <div class="card expandable reveal" style="--reveal-delay:.08s">
+        <div style="font-size:1.7rem; font-weight:800; color:var(--orange); margin-bottom:14px; font-family:Cairo;">02</div>
         <h3 data-i18n="step2.title">التخطيط والتصميم</h3>
         <p data-i18n="step2.desc">إعداد المخططات والجداول الزمنية وتقديرات التكلفة.</p>
         <p class="card-more" data-i18n="step2.more">يقوم فريقنا الهندسي بإعداد المخططات التفصيلية والجداول الزمنية وتقديرات التكلفة الدقيقة قبل بدء أي عمل تنفيذي.</p>
         <span class="expand-hint" data-i18n="ui.moreDetails">التفاصيل</span>
       </div>
-      <div class="card expandable">
-        <div class="icon">3️⃣</div>
+      <div class="card expandable reveal" style="--reveal-delay:.16s">
+        <div style="font-size:1.7rem; font-weight:800; color:var(--orange); margin-bottom:14px; font-family:Cairo;">03</div>
         <h3 data-i18n="step3.title">التنفيذ</h3>
         <p data-i18n="step3.desc">تنفذ طواقمنا العمل تحت إشراف صارم للجودة والسلامة.</p>
         <p class="card-more" data-i18n="step3.more">تنفذ طواقمنا الفنية العمل ميدانيًا تحت إشراف هندسي مستمر، مع فحوصات جودة وسلامة دورية في كل مرحلة.</p>
         <span class="expand-hint" data-i18n="ui.moreDetails">التفاصيل</span>
       </div>
-      <div class="card expandable">
-        <div class="icon">4️⃣</div>
+      <div class="card expandable reveal" style="--reveal-delay:.24s">
+        <div style="font-size:1.7rem; font-weight:800; color:var(--orange); margin-bottom:14px; font-family:Cairo;">04</div>
         <h3 data-i18n="step4.title">التسليم والدعم</h3>
         <p data-i18n="step4.desc">نسلّم المشروع النهائي ونبقى متاحين لتقديم الدعم.</p>
         <p class="card-more" data-i18n="step4.more">نسلم المشروع جاهزًا للاستخدام مع توثيق كامل، ونبقى على تواصل لتقديم الدعم الفني بعد التسليم.</p>
@@ -145,7 +145,7 @@
 
 <section>
   <div class="container">
-    <div class="cta-banner">
+    <div class="cta-banner reveal">
       <h2 data-i18n="home.cta.title">هل لديك مشروع تخطط له؟</h2>
       <p data-i18n="home.cta.desc">أخبرنا عن مشروعك وسيتواصل معك فريقنا لتقديم استشارة مجانية.</p>
       <a href="contact.html" class="btn btn-outline-dark" data-i18n="home.cta.btn">تواصل معنا اليوم</a>

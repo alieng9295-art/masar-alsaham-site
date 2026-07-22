@@ -7,13 +7,14 @@
 <meta name="description" content="شركة مسار السهم للمقاولات العامة والإنشاءات في جميع مدن العراق.">
 <meta name="google-site-verification" content="s_dXAwri0ADFOplhVb5rYm7-J--nRNxlRcn0lSH_3L8" />
 <link rel="icon" href="assets/logo_new.png" type="image/png">
+<link rel="preload" as="image" href="assets/proj4-gastanks.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-
+<div class="topbar"></div>
 <header class="site-header">
   <div class="header-inner">
     <a href="index.html" class="brand">
@@ -41,8 +42,8 @@
   </div>
 </header>
 
-<section class="hero">
-  <div class="hero-stripes"></div>
+<section class="hero" style="--hero-img:url('assets/proj4-gastanks.jpg');">
+  <div class="hero-grid-pattern"></div>
   <div class="hero-inner">
     <span class="hero-eyebrow" data-i18n="home.hero.eyebrow">مقاولات عامة • تصنيف اول انشائي</span>
     <h1 data-i18n="home.hero.title">نبني مستقبل العراق، مدينة تلو الأخرى</h1>
@@ -52,49 +53,50 @@
       <a href="contact.html" class="btn btn-outline" data-i18n="home.hero.cta2">اطلب عرض سعر</a>
     </div>
   </div>
+  <div class="hero-scroll-cue"></div>
   <div class="hero-shape"></div>
 </section>
 
 <section class="stat-strip">
   <div class="container stat-grid">
-    <div><div class="num" data-i18n="stat1.num">+15</div><div class="label" data-i18n="stat1.label">مشروع منجز</div></div>
-    <div><div class="num" data-i18n="stat2.num">+25</div><div class="label" data-i18n="stat2.label">سنة خبرة</div></div>
-    <div><div class="num" data-i18n="stat3.num">+78</div><div class="label" data-i18n="stat3.label">عضو في الفريق</div></div>
-    <div><div class="num" data-i18n="stat4.num">الأولى</div><div class="label" data-i18n="stat4.label">تصنيف المقاولين</div></div>
+    <div class="reveal"><div class="num" data-i18n="stat1.num">+15</div><div class="label" data-i18n="stat1.label">مشروع منجز</div></div>
+    <div class="reveal" style="--reveal-delay:.08s"><div class="num" data-i18n="stat2.num">+25</div><div class="label" data-i18n="stat2.label">سنة خبرة</div></div>
+    <div class="reveal" style="--reveal-delay:.16s"><div class="num" data-i18n="stat3.num">+78</div><div class="label" data-i18n="stat3.label">عضو في الفريق</div></div>
+    <div class="reveal" style="--reveal-delay:.24s"><div class="num" data-i18n="stat4.num">الأولى</div><div class="label" data-i18n="stat4.label">تصنيف المقاولين</div></div>
   </div>
 </section>
 
 <section>
   <div class="container">
-    <div class="section-head">
+    <div class="section-head reveal">
       <span class="section-eyebrow" data-i18n="home.why.eyebrow">لماذا تختارنا</span>
       <h2 data-i18n="home.why.title">شريك إنشاءات موثوق في جميع أنحاء العراق</h2>
       <p data-i18n="home.why.desc">من بغداد إلى البصرة، ومن أربيل إلى النجف.</p>
     </div>
     <div class="grid grid-4">
-      <div class="card expandable">
-        <div class="icon">🗺️</div>
+      <div class="card expandable reveal">
+        <div class="icon icon-badge" data-icon="mapPin"></div>
         <h3 data-i18n="why1.title">تغطية جميع أنحاء العراق</h3>
         <p data-i18n="why1.desc">نعمل في جميع المدن والمحافظات العراقية.</p>
         <p class="card-more" data-i18n="why1.more">من بغداد والبصرة إلى أربيل والنجف وكربلاء، ننفذ مشاريعنا في جميع المحافظات دون استثناء، بفرق عمل ولوجستيات جاهزة للانتقال إلى أي موقع يحتاجه العميل.</p>
         <span class="expand-hint" data-i18n="ui.moreDetails">التفاصيل</span>
       </div>
-      <div class="card expandable">
-        <div class="icon">👷</div>
+      <div class="card expandable reveal" style="--reveal-delay:.08s">
+        <div class="icon icon-badge" data-icon="briefcase"></div>
         <h3 data-i18n="why2.title">فريق ذو خبرة</h3>
         <p data-i18n="why2.desc">مهندسون ومدراء مشاريع وحرفيون مهرة.</p>
         <p class="card-more" data-i18n="why2.more">يضم فريقنا أكثر من 75 مهندسًا وفنيًا وإداريًا بخبرات تراكمية تتجاوز 25 عامًا في التصميم والتنفيذ وإدارة المشاريع الكبرى.</p>
         <span class="expand-hint" data-i18n="ui.moreDetails">التفاصيل</span>
       </div>
-      <div class="card expandable">
-        <div class="icon">✅</div>
+      <div class="card expandable reveal" style="--reveal-delay:.16s">
+        <div class="icon icon-badge" data-icon="shieldCheck"></div>
         <h3 data-i18n="why3.title">الجودة والسلامة</h3>
         <p data-i18n="why3.desc">معايير صارمة لضبط الجودة والسلامة.</p>
         <p class="card-more" data-i18n="why3.more">نطبق أنظمة ضبط جودة صارمة في كل مرحلة، مع التزام كامل بمعايير السلامة المهنية لحماية العمال والمستفيدين على حد سواء.</p>
         <span class="expand-hint" data-i18n="ui.moreDetails">التفاصيل</span>
       </div>
-      <div class="card expandable">
-        <div class="icon">⏱️</div>
+      <div class="card expandable reveal" style="--reveal-delay:.24s">
+        <div class="icon icon-badge" data-icon="clock"></div>
         <h3 data-i18n="why4.title">التسليم في الموعد المحدد</h3>
         <p data-i18n="why4.desc">نخطط بعناية وننفذ بكفاءة.</p>
         <p class="card-more" data-i18n="why4.more">نضع جداول زمنية واقعية ونتابعها أسبوعيًا، ونعتمد خطط طوارئ لتفادي أي تأخير، لتسليم مشروعك في الموعد المتفق عليه دون تنازل عن الجودة.</p>
@@ -106,41 +108,41 @@
 
 <section class="section-alt">
   <div class="container">
-    <div class="section-head">
+    <div class="section-head reveal">
       <span class="section-eyebrow" data-i18n="home.services.eyebrow">ماذا نقدم</span>
       <h2 data-i18n="home.services.title">خدماتنا الأساسية</h2>
     </div>
     <div class="grid grid-4">
-      <div class="card expandable">
-        <div class="icon">🏗️</div>
+      <div class="card expandable reveal">
+        <div class="icon icon-badge" data-icon="building"></div>
         <h3 data-i18n="svc.general.title">إنشاء المباني العامة</h3>
         <p data-i18n="svc.general.desc">خدمات إنشاء متكاملة من الأساسات وحتى التشطيب.</p>
         <p class="card-more" data-i18n="svc.general.more">نتولى تنفيذ المباني السكنية والتجارية والحكومية من الحفر والأساسات وحتى التشطيبات النهائية، بإشراف هندسي كامل في كل مرحلة.</p>
         <span class="expand-hint" data-i18n="ui.moreDetails">التفاصيل</span>
       </div>
-      <div class="card expandable">
-        <div class="icon">🛣️</div>
+      <div class="card expandable reveal" style="--reveal-delay:.08s">
+        <div class="icon icon-badge" data-icon="road"></div>
         <h3 data-i18n="svc.infra.title">البنى التحتية وأعمال الطرق</h3>
         <p data-i18n="svc.infra.desc">طرق وأعمال مواقع ومشاريع بنية تحتية عامة.</p>
         <p class="card-more" data-i18n="svc.infra.more">ننفذ مشاريع الطرق والجسور وأعمال الصرف الصحي والبنية التحتية العامة وفق المواصفات الفنية العراقية والدولية.</p>
         <span class="expand-hint" data-i18n="ui.moreDetails">التفاصيل</span>
       </div>
-      <div class="card expandable">
-        <div class="icon">🔧</div>
+      <div class="card expandable reveal" style="--reveal-delay:.16s">
+        <div class="icon icon-badge" data-icon="wrench"></div>
         <h3 data-i18n="svc.renovation.title">الترميم والصيانة</h3>
         <p data-i18n="svc.renovation.desc">تطوير وترميم المباني والمنشآت القائمة.</p>
         <p class="card-more" data-i18n="svc.renovation.more">نعيد تأهيل المباني والمنشآت القديمة وتحديثها لترتقي إلى معايير السلامة والكفاءة الحديثة، بأقل تكلفة وأقصر وقت ممكن.</p>
         <span class="expand-hint" data-i18n="ui.moreDetails">التفاصيل</span>
       </div>
-      <div class="card expandable">
-        <div class="icon">📋</div>
+      <div class="card expandable reveal" style="--reveal-delay:.24s">
+        <div class="icon icon-badge" data-icon="clipboard"></div>
         <h3 data-i18n="svc.pm.title">إدارة المشاريع والاستشارات</h3>
         <p data-i18n="svc.pm.desc">استشارات هندسية وإدارة متكاملة للمشاريع.</p>
         <p class="card-more" data-i18n="svc.pm.more">نقدم خدمات استشارية متكاملة تشمل دراسة الجدوى والتصميم الهندسي وإدارة العطاءات ومتابعة التنفيذ لضمان نجاح المشروع من الفكرة حتى التسليم.</p>
         <span class="expand-hint" data-i18n="ui.moreDetails">التفاصيل</span>
       </div>
     </div>
-    <div style="text-align:center; margin-top:40px;">
+    <div style="text-align:center; margin-top:44px;" class="reveal">
       <a href="services.html" class="btn btn-outline-dark" data-i18n="home.services.link">عرض جميع الخدمات</a>
     </div>
   </div>
@@ -148,7 +150,7 @@
 
 <section>
   <div class="container">
-    <div class="cta-banner">
+    <div class="cta-banner reveal">
       <h2 data-i18n="home.cta.title">هل لديك مشروع تخطط له؟</h2>
       <p data-i18n="home.cta.desc">أخبرنا عن مشروعك وسيتواصل معك فريقنا لتقديم استشارة مجانية.</p>
       <a href="contact.html" class="btn btn-outline-dark" data-i18n="home.cta.btn">تواصل معنا اليوم</a>

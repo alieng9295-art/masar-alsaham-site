@@ -11,7 +11,7 @@
 </head>
 <body>
 
-
+<div class="topbar"></div>
 <header class="site-header">
   <div class="header-inner">
     <a href="index.html" class="brand">
@@ -39,7 +39,7 @@
   </div>
 </header>
 
-<section class="page-hero">
+<section class="page-hero" style="--hero-img:url('assets/proj6-nahrain.jpg');">
   <div class="breadcrumb" data-i18n="about.hero.crumb">من نحن</div>
   <h1 data-i18n="about.hero.title">عن شركة مسار السهم</h1>
   <p data-i18n="about.hero.desc">شركة مقاولات عامة واستشارات هندسية مصنفة تصنيف اول انشائي تخدم العراق.</p>
@@ -47,13 +47,13 @@
 
 <section>
   <div class="container about-grid">
-    <div>
+    <div class="reveal">
       <span class="section-eyebrow" data-i18n="about.story.eyebrow">قصتنا</span>
       <h2 style="font-size:1.9rem; color:var(--navy-dark); margin:8px 0 20px;" data-i18n="about.story.title">شريك إنشاءات يمكنك الاعتماد عليه</h2>
       <p style="color:var(--text-mid); margin-bottom:16px;" data-i18n="about.story.p1">شركة مسار السهم للمقاولات العامة والاستشارات الهندسية المحدودة هي إحدى شركات القطاع الخاص العراقية، ذات تصنيف اول انشائي، رائدة في أعمال التصميم والتنفيذ والتخطيط وإدارة المشاريع الإستراتيجية.</p>
       <p style="color:var(--text-mid);" data-i18n="about.story.p2">تعتمد هذه الريادة على خبرة الكادر المؤسس للشركة، الذي ساهم في التخطيط والتنفيذ للعديد من المشاريع الإستراتيجية في العراق منذ عقود، حيث كانت مساهماتنا واضحة منذ عام 1986. ورغم حداثة التأسيس الرسمي لدى وزارة التجارة، فإن عمر الشركة التنفيذي يتجاوز الخمسة والعشرين عامًا.</p>
     </div>
-    <div class="about-media about-carousel" style="padding:0; overflow:hidden; position:relative;">
+    <div class="about-media about-carousel reveal" style="padding:0; overflow:hidden; position:relative;">
       <img class="about-carousel-img is-active" src="assets/proj1-karbala-3.jpg" alt="Masar Al-Saham construction site — Karbala Gate">
       <img class="about-carousel-img" src="assets/proj2-shanashil.jpg" alt="Masar Al-Saham construction site — Shanashil Baghdad">
       <img class="about-carousel-img" src="assets/proj3-najaf-1.jpg" alt="Masar Al-Saham construction site — Bidour Al-Najaf">
@@ -63,22 +63,22 @@
     </div>
   </div>
   <div class="container">
-    <p style="color:var(--text-mid); max-width:900px; margin:28px auto 0;" data-i18n="about.story.p3">نفذت الشركة مشاريع لجهات حكومية وخاصة متعددة، منها وزارات النفط والداخلية والدفاع والصحة والزراعة، وجامعة النهرين، ومصرف التجارة الدولي (TBI)، وشركات استثمار عقاري وتطوير سكني، بكادر فني دائم يضم أكثر من 75 مهندسًا وفنيًا وإداريًا.</p>
+    <p class="reveal" style="color:var(--text-mid); max-width:900px; margin:28px auto 0;" data-i18n="about.story.p3">نفذت الشركة مشاريع لجهات حكومية وخاصة متعددة، منها وزارات النفط والداخلية والدفاع والصحة والزراعة، وجامعة النهرين، ومصرف التجارة الدولي (TBI)، وشركات استثمار عقاري وتطوير سكني، بكادر فني دائم يضم أكثر من 75 مهندسًا وفنيًا وإداريًا.</p>
   </div>
 </section>
 
 <section class="section-alt">
   <div class="container">
     <div class="grid grid-2">
-      <div class="card expandable">
-        <div class="icon">🎯</div>
+      <div class="card expandable reveal">
+        <div class="icon icon-badge" data-icon="target"></div>
         <h3 data-i18n="about.mission.title">مهمتنا</h3>
         <p data-i18n="about.mission.desc">تقديم مشاريع مقاولات عامة واستشارات هندسية آمنة وعالية الجودة، في الموعد المحدد وضمن الميزانية.</p>
         <p class="card-more" data-i18n="about.mission.more">نسعى لتحقيق ذلك عبر التخطيط الدقيق، واختيار أفضل الكوادر والموردين، والمتابعة اليومية لسير العمل في كل موقع.</p>
         <span class="expand-hint" data-i18n="ui.moreDetails">التفاصيل</span>
       </div>
-      <div class="card expandable">
-        <div class="icon">🔭</div>
+      <div class="card expandable reveal" style="--reveal-delay:.1s">
+        <div class="icon icon-badge" data-icon="eye"></div>
         <h3 data-i18n="about.vision.title">رؤيتنا</h3>
         <p data-i18n="about.vision.desc">أن نكون الشريك الرائد في قطاع المقاولات والاستشارات الهندسية في العراق.</p>
         <p class="card-more" data-i18n="about.vision.more">نطمح للتوسع في مشاريع البنية التحتية الكبرى ودعم إعادة إعمار وتطوير المدن العراقية بمعايير عالمية.</p>
@@ -90,13 +90,13 @@
 
 <section>
   <div class="container">
-    <div class="section-head">
+    <div class="section-head reveal">
       <span class="section-eyebrow" data-i18n="about.values.eyebrow">ما الذي يحركنا</span>
       <h2 data-i18n="about.values.title">قيمنا الأساسية</h2>
     </div>
     <div class="value-list">
-      <div class="value-item expandable">
-        <div class="dot"></div>
+      <div class="value-item expandable reveal">
+        <div class="icon icon-badge" data-icon="hardHat" style="width:48px;height:48px;border-radius:12px;"></div>
         <div>
           <h4 data-i18n="value1.title">السلامة أولاً</h4>
           <p data-i18n="value1.desc">نضع سلامة عمالنا وعملائنا فوق كل اعتبار.</p>
@@ -104,8 +104,8 @@
           <span class="expand-hint" data-i18n="ui.moreDetails">التفاصيل</span>
         </div>
       </div>
-      <div class="value-item expandable">
-        <div class="dot"></div>
+      <div class="value-item expandable reveal" style="--reveal-delay:.06s">
+        <div class="icon icon-badge" data-icon="award" style="width:48px;height:48px;border-radius:12px;"></div>
         <div>
           <h4 data-i18n="value2.title">إتقان الجودة</h4>
           <p data-i18n="value2.desc">نلتزم بمعايير عالية في جودة التنفيذ والمواد.</p>
@@ -113,8 +113,8 @@
           <span class="expand-hint" data-i18n="ui.moreDetails">التفاصيل</span>
         </div>
       </div>
-      <div class="value-item expandable">
-        <div class="dot"></div>
+      <div class="value-item expandable reveal" style="--reveal-delay:.12s">
+        <div class="icon icon-badge" data-icon="scale" style="width:48px;height:48px;border-radius:12px;"></div>
         <div>
           <h4 data-i18n="value3.title">النزاهة</h4>
           <p data-i18n="value3.desc">نتواصل بصدق ونفي بالتزاماتنا.</p>
@@ -122,8 +122,8 @@
           <span class="expand-hint" data-i18n="ui.moreDetails">التفاصيل</span>
         </div>
       </div>
-      <div class="value-item expandable">
-        <div class="dot"></div>
+      <div class="value-item expandable reveal" style="--reveal-delay:.18s">
+        <div class="icon icon-badge" data-icon="users" style="width:48px;height:48px;border-radius:12px;"></div>
         <div>
           <h4 data-i18n="value4.title">العمل الجماعي</h4>
           <p data-i18n="value4.desc">نعمل عن قرب مع العملاء والمهندسين وطواقم العمل.</p>

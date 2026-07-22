@@ -11,7 +11,7 @@
 </head>
 <body>
 
-
+<div class="topbar"></div>
 <header class="site-header">
   <div class="header-inner">
     <a href="index.html" class="brand">
@@ -39,7 +39,7 @@
   </div>
 </header>
 
-<section class="page-hero">
+<section class="page-hero" style="--hero-img:url('assets/proj5-tbi-1.jpg');">
   <div class="breadcrumb" data-i18n="contact.hero.crumb">اتصل بنا</div>
   <h1 data-i18n="contact.hero.title">لنتحدث عن مشروعك</h1>
   <p data-i18n="contact.hero.desc">تواصل معنا للحصول على استشارة مجانية — نعمل في كل مدينة عراقية.</p>
@@ -47,33 +47,33 @@
 
 <section>
   <div class="container contact-grid">
-    <div class="contact-info-card">
+    <div class="contact-info-card reveal">
       <h3 data-i18n="contact.info.title">تواصل معنا</h3>
       <p class="lead" data-i18n="contact.info.lead">تواصل معنا وسيقوم فريقنا بالرد في أقرب وقت ممكن.</p>
 
       <div class="contact-line">
-        <div class="icon">📞</div>
+        <div class="icon icon-badge" data-icon="phone"></div>
         <div>
           <strong data-i18n="contact.phone.label">الهاتف</strong>
           <span data-i18n="contact.phone.value">07745000864 / 07764181492</span>
         </div>
       </div>
       <div class="contact-line">
-        <div class="icon">✉️</div>
+        <div class="icon icon-badge" data-icon="mail"></div>
         <div>
           <strong data-i18n="contact.email.label">البريد الإلكتروني</strong>
           <span data-i18n="contact.email.value">masar.al_saham@yahoo.com</span>
         </div>
       </div>
       <div class="contact-line">
-        <div class="icon">📍</div>
+        <div class="icon icon-badge" data-icon="mapPin"></div>
         <div>
           <strong data-i18n="contact.address.label">المكتب الرئيسي</strong>
           <span data-i18n="contact.address.value">بغداد – حي الخضراء</span>
         </div>
       </div>
       <div class="contact-line">
-        <div class="icon">🕐</div>
+        <div class="icon icon-badge" data-icon="clock"></div>
         <div>
           <strong data-i18n="contact.hours.label">ساعات العمل</strong>
           <span data-i18n="contact.hours.value">السبت–الخميس: 8:00 صباحًا – 5:00 مساءً</span>
@@ -81,7 +81,7 @@
       </div>
     </div>
 
-    <div class="form-card">
+    <div class="form-card reveal" style="--reveal-delay:.1s">
       <h3 style="margin:0 0 6px; color:var(--navy-dark);" data-i18n="contact.form.title">أرسل لنا رسالة</h3>
       <div class="form-success" id="form-success" data-i18n="contact.form.success">شكرًا لك! تم تسجيل رسالتك.</div>
       <form id="contact-form" action="https://formsubmit.co/ajax/masar.al_saham@yahoo.com" method="POST">
@@ -119,7 +119,7 @@
   </div>
 
   <div class="container">
-    <div class="map-note" data-i18n="contact.map.text">نموذج خريطة — أضف هنا خريطة جوجل الخاصة بموقع مكتبك.</div>
+    <div class="map-note reveal" data-i18n="contact.map.text">نموذج خريطة — أضف هنا خريطة جوجل الخاصة بموقع مكتبك.</div>
   </div>
 </section>
 

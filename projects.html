@@ -11,7 +11,7 @@
 </head>
 <body>
 
-
+<div class="topbar"></div>
 <header class="site-header">
   <div class="header-inner">
     <a href="index.html" class="brand">
@@ -39,7 +39,7 @@
   </div>
 </header>
 
-<section class="page-hero">
+<section class="page-hero" style="--hero-img:url('assets/proj2-shanashil.jpg');">
   <div class="breadcrumb" data-i18n="projects.hero.crumb">مشاريعنا</div>
   <h1 data-i18n="projects.hero.title">نماذج من أعمالنا في العراق</h1>
   <p data-i18n="projects.hero.desc">نظرة على نوعية المشاريع التي ننفذها في مدن على مستوى البلاد.</p>
@@ -47,9 +47,9 @@
 
 <section>
   <div class="container">
-    <p style="text-align:center; color:var(--text-mid); margin:-20px 0 40px; font-size:0.9rem;" data-i18n="projects.note">نماذج من مشاريعنا المنجزة والجارية في عدة محافظات عراقية.</p>
+    <p class="reveal" style="text-align:center; color:var(--text-mid); margin:-20px 0 40px; font-size:0.9rem;" data-i18n="projects.note">نماذج من مشاريعنا المنجزة والجارية في عدة محافظات عراقية.</p>
     <div class="grid grid-3">
-      <div class="project-card">
+      <div class="project-card reveal">
         <div class="project-thumb"><img src="assets/proj1-karbala-1.jpg" alt="Residential Complex – Karbala Gate" loading="lazy"></div>
         <div class="project-body">
           <span class="project-tag" data-i18n="proj1.tag">سكني</span>
@@ -58,7 +58,7 @@
           <div class="detail" data-i18n="proj1.detail">250 وحدة سكنية • الجهة المستفيدة: شركة أمواج للاستثمار العقاري</div>
         </div>
       </div>
-      <div class="project-card">
+      <div class="project-card reveal" style="--reveal-delay:.06s">
         <div class="project-thumb"><img src="assets/proj2-shanashil.jpg" alt="Residential Complex – Shanashil Baghdad" loading="lazy"></div>
         <div class="project-body">
           <span class="project-tag" data-i18n="proj2.tag">سكني</span>
@@ -67,7 +67,7 @@
           <div class="detail" data-i18n="proj2.detail">64 وحدة سكنية</div>
         </div>
       </div>
-      <div class="project-card">
+      <div class="project-card reveal" style="--reveal-delay:.12s">
         <div class="project-thumb"><img src="assets/proj3-najaf-1.jpg" alt="Residential Complex – Bidour Al-Najaf" loading="lazy"></div>
         <div class="project-body">
           <span class="project-tag" data-i18n="proj3.tag">سكني</span>
@@ -76,7 +76,7 @@
           <div class="detail" data-i18n="proj3.detail">32 وحدة سكنية</div>
         </div>
       </div>
-      <div class="project-card">
+      <div class="project-card reveal">
         <div class="project-thumb"><img src="assets/proj4-gastanks.jpg" alt="Spherical Gas Storage Tanks" loading="lazy"></div>
         <div class="project-body">
           <span class="project-tag" data-i18n="proj4.tag">صناعي</span>
@@ -85,7 +85,7 @@
           <div class="detail" data-i18n="proj4.detail">الجهة المستفيدة: شركة تعبئة الغاز • أعمال ركائز وأساسات وأعمدة كونكريتية للخزانات • 2022</div>
         </div>
       </div>
-      <div class="project-card">
+      <div class="project-card reveal" style="--reveal-delay:.06s">
         <div class="project-thumb"><img src="assets/proj5-tbi-1.jpg" alt="Trade Bank of Iraq (TBI) Renovation" loading="lazy"></div>
         <div class="project-body">
           <span class="project-tag" data-i18n="proj5.tag">ترميم</span>
@@ -94,7 +94,7 @@
           <div class="detail" data-i18n="proj5.detail">ترميم 6 طوابق مع السرداب وكافة الأعمال الكهربائية والصحية والتبريد</div>
         </div>
       </div>
-      <div class="project-card">
+      <div class="project-card reveal" style="--reveal-delay:.12s">
         <div class="project-thumb"><img src="assets/proj6-nahrain.jpg" alt="Al-Nahrain University Dormitory Building" loading="lazy"></div>
         <div class="project-body">
           <span class="project-tag" data-i18n="proj6.tag">مؤسسي</span>
@@ -103,7 +103,7 @@
           <div class="detail" data-i18n="proj6.detail">أعمال بناء وتشطيبات وواجهات زجاجية • أنجز 2023</div>
         </div>
       </div>
-      <div class="project-card">
+      <div class="project-card reveal">
         <div class="project-thumb"><img src="assets/proj7-interior.jpg" alt="Ministry of Interior Emergency Stairs" loading="lazy"></div>
         <div class="project-body">
           <span class="project-tag" data-i18n="proj7.tag">بنية تحتية</span>
@@ -118,7 +118,7 @@
 
 <section class="section-alt">
   <div class="container">
-    <div class="cta-banner">
+    <div class="cta-banner reveal">
       <h2 data-i18n="home.cta.title">هل لديك مشروع تخطط له؟</h2>
       <p data-i18n="home.cta.desc">أخبرنا عن مشروعك وسيتواصل معك فريقنا لتقديم استشارة مجانية.</p>
       <a href="contact.html" class="btn btn-outline-dark" data-i18n="home.cta.btn">تواصل معنا اليوم</a>
@@ -161,4 +161,6 @@
 </footer>
 
 <script src="js/i18n.js"></script>
-<script src="
+<script src="js/main.js"></script>
+</body>
+</html>
