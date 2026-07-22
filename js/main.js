@@ -150,6 +150,22 @@
     });
   }
 
+  function initTabFeature() {
+    document.querySelectorAll(".tab-feature").forEach(function (wrap) {
+      var btns = wrap.querySelectorAll(".tab-feature-btn");
+      var panels = wrap.querySelectorAll(".tab-feature-media");
+      btns.forEach(function (btn) {
+        btn.addEventListener("click", function () {
+          var id = btn.getAttribute("data-tab");
+          btns.forEach(function (b) { b.classList.toggle("active", b === btn); });
+          panels.forEach(function (p) {
+            p.classList.toggle("active", p.getAttribute("data-tab-panel") === id);
+          });
+        });
+      });
+    });
+  }
+
   function initContactForm() {
     var form = document.getElementById("contact-form");
     if (!form) return;
@@ -196,6 +212,7 @@
     initContactForm();
     initAboutCarousel();
     initExpandableCards();
+    initTabFeature();
     initScrollReveal();
   });
 })();

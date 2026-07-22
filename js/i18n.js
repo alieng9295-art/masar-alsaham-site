@@ -22,6 +22,10 @@ window.MASAR_I18N = {
     "home.hero.desc": "Masar Al-Saham Company delivers reliable general contracting and engineering consultancy across Iraq — from residential and commercial buildings to infrastructure and industrial works.",
     "home.hero.cta1": "Our Services", "home.hero.cta2": "Get a Quote",
 
+    "tile1.eyebrow": "Build With Us", "tile1.title": "A Project", "tile1.desc": "From first sketch to final handover, we take on complex builds with confidence and precision.", "tile1.link": "Browse Our Projects",
+    "tile2.eyebrow": "Our People", "tile2.title": "A Team", "tile2.desc": "More than 75 engineers, technicians, and administrators working as one on every site.", "tile2.link": "Meet the Company",
+    "tile3.eyebrow": "Our Promise", "tile3.title": "A Commitment", "tile3.desc": "Quality, safety, and reliability guide every decision we make on the ground.", "tile3.link": "See Our Services",
+
     "stat1.num": "15+", "stat1.label": "Completed Projects",
     "stat2.num": "25+", "stat2.label": "Years of Experience",
     "stat3.num": "78+", "stat3.label": "Team Members",
@@ -178,6 +182,10 @@ window.MASAR_I18N = {
     "home.hero.title": "نبني مستقبل العراق، مدينة تلو الأخرى",
     "home.hero.desc": "تقدم شركة مسار السهم خدمات مقاولات عامة واستشارات هندسية موثوقة في العراق، من المباني السكنية والتجارية إلى البنى التحتية والأعمال الصناعية.",
     "home.hero.cta1": "خدماتنا", "home.hero.cta2": "اطلب عرض سعر",
+
+    "tile1.eyebrow": "ابنِ معنا", "tile1.title": "مشروع", "tile1.desc": "من أول رسمة هندسية وحتى التسليم النهائي، ننفّذ المشاريع المعقدة بثقة ودقة.", "tile1.link": "استعرض مشاريعنا",
+    "tile2.eyebrow": "فريقنا", "tile2.title": "فريق", "tile2.desc": "أكثر من 75 مهندسًا وفنيًا وإداريًا يعملون بروح واحدة في كل موقع.", "tile2.link": "تعرف على الشركة",
+    "tile3.eyebrow": "وعدنا لك", "tile3.title": "التزام", "tile3.desc": "الجودة والسلامة والموثوقية توجّه كل قرار نتخذه في الموقع.", "tile3.link": "شاهد خدماتنا",
 
     "stat1.num": "+15", "stat1.label": "مشروع منجز",
     "stat2.num": "+25", "stat2.label": "سنة خبرة",
